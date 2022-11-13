@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937; 
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin: 0;
+}
+
+.logo {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.links > li > a {
+    text-decoration: none;
+}
+
+.second{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+button{
+    background-color: #3882f6;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    background-color: rgb(238, 230, 230);
+}
+
+.paras{
+    display: flex;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+
+.wrap {
+    width: 100px;
+    height: auto;
+}
+
+.fourth{
+    background-color: aliceblue;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width:auto; 
+}
+
+.fourth-1{
+    width: 40%;
+    text-align: center;
+    height: auto;
+} 
+
+.fourth-2{
+    width: 40%;
+    text-align: end;
+}
+
+
+.button{
+    padding-top: 2rem;
+}
+
+.button > button {
+    border: 1px solid white;
+}
+
+
+
+.fifth-outer{
+    background-color: #47628c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.fifth{
+    display: flex;
+    width: 55%;
+    border-radius: 5px;
+    background-color: #3882f6;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.footer{
+    text-align: center;
+    background-color: azure;
+}
